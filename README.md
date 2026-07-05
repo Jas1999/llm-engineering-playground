@@ -13,6 +13,8 @@ This repository contains experiments, projects, and notes while learning how to 
 
 The goal is to learn by building, not just reading.
 
+> **Note**: Reference implementations and demo scripts in this repository are co-developed with Claude (Anthropic) for AI engineering practice.
+
 ---
 
 ## Learning Goals
@@ -129,13 +131,13 @@ The goal is to learn by building, not just reading.
 
 # Projects
 
-## 🔹 Project 1: Coming Soon
+## 🔹 Project 1: ReAct Agent with Tools
+- **File**: `react-demo-with-tools_1-2.py`
+- **Description**: A ReAct (Reason + Act) agent demo that combines reasoning loops with external tool calling (web search, calculator, etc.) using Anthropic's Claude.
 
-> First AI system built from scratch.
-
-## 🔹 Project 2: Coming Soon
-
-> Agent-based workflow using tools and memory.
+## 🔹 Project 2: RAG Pipeline with ChromaDB & Anthropic
+- **File**: `rag-demo-chroma-anthropic.py`
+- **Description**: A complete 9-step Retrieval-Augmented Generation (RAG) pipeline using LangChain, ChromaDB vector store, Voyage embeddings, and Anthropic's Claude.
 
 ---
 
@@ -155,8 +157,8 @@ The focus is understanding how AI systems are built end-to-end.
 # Progress
 
 - [x] LLM basics
-- [ ] RAG pipeline
-- [ ] Agent with tools
+- [x] RAG pipeline
+- [x] Agent with tools
 - [ ] MCP integration
 - [ ] Fine-tuned model
 - [ ] Production AI application
