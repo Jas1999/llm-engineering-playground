@@ -139,6 +139,10 @@ The goal is to learn by building, not just reading.
 - **File**: `rag-demo-chroma-anthropic.py`
 - **Description**: A complete 9-step Retrieval-Augmented Generation (RAG) pipeline using LangChain, ChromaDB vector store, Voyage embeddings, and Anthropic's Claude.
 
+## 🔹 Project 3: Advanced RAG with Re-ranking & Evals
+- **File**: `rag-advanced-retrieval.py`
+- **Description**: Advanced RAG pipeline implementing Multi-Query retrieval, Hybrid Search (BM25 + Vector), Cohere Re-ranker, and Ragas automated evaluations.
+
 ---
 
 # Notes
