@@ -30,7 +30,6 @@ from langchain_anthropic import ChatAnthropic, AnthropicEmbeddings
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain_community.retrievers import BM25Retriever
-from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_cohere import CohereRerank
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.retrievers.multi_query import MultiQueryRetriever
